@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/hjz8pfr.css"); 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: black;
+    font-family: ethnocentric, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+}
+
+/* headers and paragraphs */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 300;  
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Navigation */
+
