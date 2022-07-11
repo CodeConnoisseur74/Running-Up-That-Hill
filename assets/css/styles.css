@@ -33,3 +33,14 @@ h1, h2, h3 {
     float: left;
     font-size: 200%;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
