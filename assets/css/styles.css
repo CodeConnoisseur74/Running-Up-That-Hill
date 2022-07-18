@@ -16,11 +16,23 @@ body {
 
 /* headers and paragraphs */
 
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
 h1, h2 {
     font-family: "forma-djr-micro", sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     color: #a175b0;
+}
+
+p {
+    font-size: 1rem;
 }
 
 #logo {
@@ -64,6 +76,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
