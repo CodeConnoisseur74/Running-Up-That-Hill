@@ -35,6 +35,8 @@ p {
     font-size: 1rem;
 }
 
+/* home logo */
+
 #logo {
     float: left;
     font-size: 200%;
@@ -53,8 +55,8 @@ p {
 
 #menu li {
     float: right;
-    margin-right: 30px;
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -123,3 +125,30 @@ footer {
     padding: 5%;
 }
 
+/* home page site introduction section */
+
+#introduction {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-outer {
+    display: inline-block;
+}
+
+.intro-sect {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.intro-sect p {
+    text-align: justify;
+}
+
+.intro-sect > img {
+    width: 100%;
+}
