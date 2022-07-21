@@ -42,8 +42,6 @@ p {
     font-size: 200%;
 }
 
-/* navigation links */
-
 #menu {
     font-family: "ethnocentric", sans-serif;
     font-weight: 400;
@@ -211,6 +209,41 @@ footer {
 }
 
 .song-text {
+    width: 40%;
+    text-align: left;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #4c254a;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+    color: indigo;
+}
+
+
+/* stranger things section */
+
+#strange-music {
+    width: 100%;
+    text-align: center;
+}
+
+.strange-song {
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.strange-song img {
+    height: 100%;
+}
+
+.strange-text {
     width: 40%;
     text-align: left;
 }
