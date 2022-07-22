@@ -133,6 +133,37 @@ footer {
     padding: 5%;
 }
 
+/* news image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#news-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/news-hero1.jpg) no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 /* home page site introduction section */
 
 #introduction {
@@ -257,3 +288,68 @@ footer {
     text-decoration: underline;
     color: indigo;
 }
+
+/* news page */
+
+.news {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news > h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#news-intro {
+    width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+form {
+    width: 500px;
+    background-color: #4c254a;
+    border:1px solid #4c254a;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.text-input {
+    width: 100%;
+    border: 1px solid #4c254a;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid #4c254a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-family: "forma-djr-micro", sans-serif;
+    color: #4c254a;
+}
+
+button {
+    border: 1px solid #4c254a;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    background-color: #a175b0;
+    color: #4c254a;
+    font-size: 100%;
+}
+
+button:hover {
+    color: indigo;
+}
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
