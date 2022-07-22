@@ -37,6 +37,11 @@ p {
 
 /* home logo */
 
+.menu {
+    position: sticky;
+    top: 0;
+}
+
 #logo {
     float: left;
     font-size: 200%;
