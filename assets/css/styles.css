@@ -90,7 +90,7 @@ p {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/kate-bush-header1.jpg) no-repeat center center;
+    background: url(../images/kate-hero-final.jpg) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -150,7 +150,7 @@ footer {
 #news-image {
     height: 600px;
     width: 100%;
-    background: url(../images/news-hero1.jpg) no-repeat center center;
+    background: url(../images/news-hero-final.jpg) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -358,13 +358,3 @@ button:hover {
 /* media queries */
 
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}

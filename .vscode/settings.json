@@ -20,8 +20,14 @@
       "**/core.python*": true,
       "**/CVS": true
    },
-   "files.autoSave": "off",
+   "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "workbench.editor.enablePreview": false,
+   "workbench.editor.enablePreviewFromQuickOpen": true,
+   "liveServer.settings.useBrowserPreview": true,
+   "livePreview.showServerStatusNotifications": true,
+   "editor.suggest.preview": true,
+   "workbench.editor.enablePreviewFromCodeNavigation": true
 }
