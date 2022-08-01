@@ -42,34 +42,26 @@ p {
     top: 0;
 }
 
-#logo {
-    float: left;
-    font-size: 200%;
+.navbar-brand {
+    font-family: "ethnocentric", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a175b0;
 }
 
-#menu {
+#navmenu {
     font-family: "ethnocentric", sans-serif;
     font-weight: 400;
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
+#navmenu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+#navmenu a:hover {
     color: indigo;
     border-bottom: 1px solid #4c254a;
 }
@@ -123,6 +115,11 @@ footer {
     width: 100%
 }
 
+.social-icons {
+    position: sticky;
+    bottom: 0;
+}
+
 .social-networks {
     text-align: center;
 }
@@ -136,6 +133,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
+    color: #a175b0;
 }
 
 /* news image */
