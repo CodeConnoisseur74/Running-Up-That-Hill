@@ -61,7 +61,7 @@ p {
     color: inherit;
 }
 
-#navmenu a:hover {
+.menu a:hover {
     color: indigo;
     border-bottom: 1px solid #4c254a;
 }
