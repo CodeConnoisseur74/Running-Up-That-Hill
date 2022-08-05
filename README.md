@@ -1,10 +1,10 @@
 Readme.md 
 
-# **TITLE**
+# **KATE BUSH-RUNNING UP THAT HILL**
 
-![Live Project Mockup](path to mockup image goes here)
+![Live Project Mockup](assets/images/responsive-home.png)
 
-[Link to Live Project](link to live site goes here)
+[Link to Live Project](https://codeconnoisseur74.github.io/Running-Up-That-Hill/)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -30,7 +30,7 @@ Readme.md
 
 ## Introduction
 
-Some introductory text about the site and its goals.
+This is a website providing information about the brief history of artist and musician Kate Bush. This website focuses particularly on Kate's song "Running Up That Hill" which recently made music history by finally achieving nymber 1 status on the music charts after 37 years since it's release. This is due in huge part to the success of the Netflix series "Stranger Things" Season 4 which is also explained on this website. The website also briefly explains the history of how Kate begain using the Fairlight CMI Synthesizer, which hugely shaped her sound on this song and many others. This website is targeted to Kate Bush fans, but mostly to the new young fans she aquired through the sudden resurgence of the hit song. 
 
 ## UX
 
@@ -38,16 +38,9 @@ Some introductory text about the site and its goals.
 
 | ID | As a... | I Want To Be Able To... | So That I Can...|
 | --- | --- | --- | --- |
-| 01 | User | Some capability e.g. navigate site | Some benefit |
-| 02 | User | Some capability | Some benefit |
-| 03 | User | Some capability | Some benefit |
-
-### Wireframes
-
-The following wireframes were created to help plan the layout of the site:
-
-* [Homepage](path to file)
-* [another page](path to file)
+| 01 | As a user,| I want to easily navigate the website, | so my time isn't wasted. |
+| 02 | As a young user | I want to quickly understand what the site is all about, | so that I can decide if it is of interest to me. |
+| 03 | As a longtime Kate Bush fan,| I want to ensure that the site is esthetically pleasing | quick access to any newsletter info.|
 
 ## Features
 
@@ -74,12 +67,17 @@ The following wireframes were created to help plan the layout of the site:
 ## Technologies Used
 
 ### Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [Bootstrap5](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))  
 
 ### Frameworks, Libraries & Programs Used
 
 * [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) has been used to assist with the styling of the site and particularly the responsiveness.
-* List other frameworks we have used.
+## List other frameworks we have used
+* [Adobe Fonts](https://www.adobe.com/products/catalog.html)
+* [Favicon](https://favicon.io/)
+* [Fontawesome](https://fontawesome.com/)
+
+
 
 ## Testing
 
