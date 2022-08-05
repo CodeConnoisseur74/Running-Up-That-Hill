@@ -385,5 +385,9 @@ html {
     .container a {
          font-size:80%;
     }
+
+    .news {
+        max-width: 400px;
+    }
 }
 
