@@ -123,11 +123,6 @@ footer {
     width: 100%
 }
 
-.social-icons {
-    position: sticky;
-    bottom: 0;
-}
-
 .social-networks {
     text-align: center;
 }
@@ -173,6 +168,13 @@ footer {
     to {
         transform: scale(1.1);
     }
+}
+
+.news-dates {
+    margin: 0 auto;
+    text-align: left;
+    width: 500px;
+    padding-top: 10px;
 }
 
 /* home page site introduction section */
@@ -388,6 +390,10 @@ html {
 
     .news {
         max-width: 400px;
+    }
+
+    .kate-song .kate-text {
+        font-size: 60%;
     }
 }
 
