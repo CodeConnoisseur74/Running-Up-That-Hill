@@ -45,24 +45,30 @@ This is a website providing information about the brief history of artist and mu
 ## Features
 
 ### Existing Features
+## Navigation Bar
+* Located concisely at the top of every page
+* The user can easily navigate to different sections of the site with ease
+* This feature solves user story 1 
+![Navigation Bar](assets/images/navbar.jpg.png)] 
+#### Navigation Bar Dropdown
 
-#### Name of feature
+* Dropdown Menu located within the NAvigation Bar at the top of the page for easy access
+* Navigation Bar fits responsively to tablet and mobile screens. 
+* This solves user stories 1 and 3
 
-* Description of feature and benefit
-* Description of feature and benefit
+![Navigation Dropdown Menu](assets/images/navbar-menu-responsive.jpg.png)
+#### Home Page Layout
 
-![Feature Name](image path)
+* Minimalistic layout for ease of use
+* User can easily read short tidbits of information regarding each section and can click on them to be taken to additional information
+* This solves Stories 1, 2 and 3. 
 
-#### Name of feature
-
-* Description of feature and benefit
-* Description of feature and benefit
-
-![Feature Name](image path)
+![Home Page Layout](assets/images/info-homepage.jpg.png)
 
 ### Features Left to Implement
 
-* Describe some features that we would like to implement in the future
+* Expand the website to include additional information and sections
+* Include a more extensive history, along with videos and a gallery for each of Kate Bush's albums. 
 
 ## Technologies Used
 
@@ -79,9 +85,14 @@ This is a website providing information about the brief history of artist and mu
 
 
 
-## Testing
+## Validator Testing
+[HTML W3S Validator](https://validator.w3.org/)
+* One error showing on line 37, column 71 regarding a duplicate class attribute that has since been deleted and fixed. 
+* Upon retesting the HTML, no errors showing, only a warning stating the section in HTML on line 53, columns 5 and 29 should have a heading.
 
-Details about the testing we have carried out.
+[CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+* 15 ospecified errors showed. This is a known bug confirmed by Stackoverflow. Explanation: CSS3 is evolving much faster than the CSS Jigsaw Validator can keep up with currently. All errors are confirmed to be non-issues.
+![Stackoverflow Discussion Board Screenshot](assets/images/stackoverflow-error.jpg.png)
 
 ## Deployment
 
@@ -113,6 +124,11 @@ The following steps can be used to clone the GitHub repository:
 * Press 'Enter' to create the clone.
 
 ## Credits
+* Information about KAte Bush, her Music, Stranger Things Series and the Fairlight CMI taken from [Wikipedia](https://www.wikipedia.org/)
+* Fonts taken from [Adobe Fonts](https://www.adobe.com/products/catalog.html)
+* Icons taken from [Fontawesome](https://fontawesome.com/)
+* KAte Bush "Running Up That Hill" Official Music Video Taken from [Youtube](https://www.youtube.com/)
+
 
 ### Code
 
@@ -127,4 +143,7 @@ The following steps can be used to clone the GitHub repository:
 
 ### Other
 
-* Any other credits
+* The Code Institute [Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to make the repository on Github.
+* All photos were taken from [The Official Kate Bush Website](https://www.katebush.com/home)
+* All photo edits, where needed, were edited using [PicsArt](https://picsart.com/)
+* The Mockup of the website in the README.md was created using [Am I Responsive?](https://ui.dev/amiresponsive)
